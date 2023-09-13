@@ -1,0 +1,47 @@
+
+
+#divContainer{
+   display: grid;
+   grid-template-columns:  repeat(auto-fill, 300px);
+   
+    gap: 10px;
+
+}
+
+#divContainer div{
+    border: 1px solid;
+    max-width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 30px;
+
+
+   
+}h1{
+    color: red;
+   text-align: left;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}p{
+    
+    margin: 0;
+}img{
+    width: 100%;
+    /* object-fit: cover; */
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+#imagePreview{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
